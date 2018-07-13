@@ -11,7 +11,7 @@ import android.support.v4.app.NotificationCompat;
 import android.telephony.SmsManager;
 
 /**
- * Created by WANGSUN on 21-Dec-16.
+ * Created by WANGSUN on 21-01-18.
  */
 
 public class Alarm_broadcast extends BroadcastReceiver {
