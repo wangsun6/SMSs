@@ -14,7 +14,7 @@ import java.util.Date;
 
 
 /**
- * Created by WANGSUN on 15-Dec-16.
+ * Created by WANGSUN on 15-jan-18.
  */
 
 public class Adapter_recycle extends RecyclerView.Adapter<Adapter_recycle.RecyclerViewHolder> {
