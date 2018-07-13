@@ -22,12 +22,12 @@ To set date and time click the date and time as shown in the figure.
 
 ## Set Date
 
-![4th img](https://firebasestorage.googleapis.com/v0/b/test-eff6f.appspot.com/o/SMSs%2F4.png?alt=media&token=a5e3c298-c1ba-4951-b9ee-9ba4b2f95539)
+![4th img](https://firebasestorage.googleapis.com/v0/b/test-eff6f.appspot.com/o/SMSs%2F4.png?alt=media&token=b8081146-026f-4553-8aec-d8c0f1e0e582)
 
 Select date...
 
 ## Set Time
 
-![5th img](https://firebasestorage.googleapis.com/v0/b/test-eff6f.appspot.com/o/SMSs%2F5.png?alt=media&token=df2c25e8-aa49-41b3-83d1-c3d56818efb5)
+![5th img](https://firebasestorage.googleapis.com/v0/b/test-eff6f.appspot.com/o/SMSs%2F5.png?alt=media&token=18874113-7356-4912-a844-5fc9c1b2cbaa)
 
 Select Time...
