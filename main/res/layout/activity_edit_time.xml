@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.wangsun.android.sms_s.Edit_time">
+
+    <ScrollView
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="50dp">
+
+        <LinearLayout
+            android:layout_margin="15dp"
+            android:id="@+id/viewCheck"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Switch
+                android:id="@+id/switchId"
+                android:layout_width="wrap_content"
+                android:textOn="ON"
+                android:textOff="OFF"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:layout_gravity="right"
+                android:gravity="center"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:paddingRight="10dp"
+                android:checked="false" />
+
+
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:weightSum="4">
+
+                <EditText
+                    android:id="@+id/id_num"
+                    style="@style/commonEdit_single_line"
+                    android:layout_width="0dp"
+                    android:layout_weight="3"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/border_black"
+                    android:hint="Number:"
+                    android:inputType="numberSigned"
+                    android:padding="5dp" />
+
+
+                <ImageButton
+                    android:id="@+id/id_img"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:src="@drawable/ic_person_add_black_24dp"
+                    android:background="@null"
+                    android:onClick="pickNumber"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp"
+                android:weightSum="2">
+
+                <TextView
+                    android:id="@+id/id_date"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:hint="Date:"
+                    style="@style/commonText"
+                    android:background="@drawable/border_blue"/>
+
+
+
+                <TextView
+                    android:id="@+id/id_time"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:hint="Time:"
+                    style="@style/commonText"
+                    android:background="@drawable/border_blue"/>
+
+            </LinearLayout>
+
+            <EditText
+                android:layout_marginBottom="20dp"
+                android:id="@+id/id_msg"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                style="@style/commonEdit_multi_line"
+                android:hint="Message:"
+                android:background="@drawable/border_black"/>
+
+            <LinearLayout
+                android:visibility="gone"
+                android:layout_marginBottom="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <TextView
+                    android:id="@+id/id_delete"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="DELETE"
+                    style="@style/commonText"
+                    android:textColor="@color/white"
+                    android:background="@drawable/button_curve"/>
+
+                <TextView
+                    android:id="@+id/id_save"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="SAVE"
+                    style="@style/commonText"
+                    android:textColor="@color/white"
+                    android:background="@drawable/button_curve"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
